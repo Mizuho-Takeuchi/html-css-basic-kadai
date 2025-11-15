@@ -1,3 +1,15 @@
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 30px;
+    }    
+    p{
+        font-size: 25px;
+    }
+    #parent{
+        display: flex;
+        flex-direction: column;
+    }
+}
 h1{
     margin: 0;
     color: rgb(255, 255, 255);
@@ -20,7 +32,7 @@ header{
 main{
     margin: 10px;
 }
-.parent{
+#parent{
     display: flex;
     justify-content: space-between;
 }
@@ -59,15 +71,4 @@ a:visited{
 }
 a:hover{
     color: rgb(245, 178, 168);
-}
-@media screen and(max-width:768px) {
-    h2{
-        font-size: 30px;
-    }    
-    p{
-        font-size: 25px;
-    }
-    .parent{
-        flex-direction: column;
-    }
 }
